@@ -89,7 +89,7 @@ fun EnterDetails(modifier: Modifier = Modifier, onsubmit: () -> Unit,addDevice:(
                         )
                         Spacer(modifier = Modifier.height(16.dp))
                         var issue by remember {
-                            mutableStateOf("")
+                            mutableStateOf("display not working")
                         }
                         TextField(
                             value = issue,
@@ -132,6 +132,8 @@ fun EnterDetails(modifier: Modifier = Modifier, onsubmit: () -> Unit,addDevice:(
 
 
                                 onsubmit()
+                                //viewmodel.getResponse(issue)
+
                             },
                             modifier = Modifier.fillMaxWidth()
                         ) {

@@ -81,7 +81,7 @@ dependencies {
     implementation("androidx.room:room-ktx:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
     // To use Kotlin annotation processing tool (kapt)
-
+    implementation("com.google.ai.client.generativeai:generativeai:0.3.0")
 
 
     testImplementation("junit:junit:4.13.2")
