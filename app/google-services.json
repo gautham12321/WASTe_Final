@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "741629157304",
+    "project_id": "waste-login-86b22",
+    "storage_bucket": "waste-login-86b22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741629157304:android:2ded049ce9cf4cc1d9f94d",
+        "android_client_info": {
+          "package_name": "com.example.waste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJUGytGGl4XXXfdK2CPC8owgBoqioAa-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
